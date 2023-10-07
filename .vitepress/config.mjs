@@ -39,7 +39,7 @@ export default defineConfig({
                 {
                     text: 'Essentials',
                     items: [
-                        {text: 'Syntax', link: '/guide/essentials/syntax'},
+                        {text: 'First simple application', link: '/guide/essentials/first-simple-application'},
                     ]
                 },
             ],
