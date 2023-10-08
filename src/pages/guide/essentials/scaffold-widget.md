@@ -1,9 +1,9 @@
 # Scaffold widget
 
 Flutterda `Scaffold` vidjeti material dizaynga asoslangan foydalanuvchi interfeyslarini yaratish uchun asosiy qurilish
-blokidir. Scaffold vidgeti sahifaning umumiy tuzilmasini tuzish uchun yordam beradi.
+blokidir. Scaffold vidjeti sahifaning umumiy tuzilmasini tuzish uchun yordam beradi.
 
-`Scaffold` vidgeti bir nechta atributlarni o'z ichiga oladi.
+`Scaffold` vidjeti bir nechta atributlarni o'z ichiga oladi.
 
 * `appBar` - ilovaning top navbari
 * `body` - ilovaning tanasi
@@ -13,7 +13,7 @@ va boshqalar.
 
 ![Scaffold widget](https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bx4BSt6jniD7T0hfM01sSmRyTG8/layout_structure_regions_mobile.png)
 
-Avvalgi darsda tuzgan dasturimizdagi `Text` vidgetini `Scaffold` ichiga olib o'tamiz.
+Avvalgi darsda tuzgan dasturimizdagi `Text` vidjetini `Scaffold` ichiga olib o'tamiz.
 
 ::: code-group
 
@@ -42,9 +42,9 @@ class MyApp extends StatelessWidget {
 
 Dasturni ishga tushirsak, interfeys o'zgarganini ko'rishimiz mumkin.
 
-## Center vidgeti
+## Center vidjeti
 
-Elementlarni markazga joylashtirish uchun `Center` vidgetidan foydalanamiz. `Center` vidgeti orqali matnni markazga
+Elementlarni markazga joylashtirish uchun `Center` vidjetidan foydalanamiz. `Center` vidjeti orqali matnni markazga
 quyidagicha joylashtiramiz:
 
 ::: code-group
