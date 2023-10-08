@@ -5,7 +5,7 @@ uni qismlarga ajratish kerak bo'ladi.
 
 Hozirgi kodimiz bo'yicha ilovaning matn qismini alohida faylga olib o'tishni o'rganamiz.
 
-`lib/` papkasining ichida `styled_text.dart` faylini yaratamiz. O'z vidgetimiz yozishimiz uchun umumiy namuna
+`lib/` papkasining ichida `styled_text.dart` faylini yaratamiz. O'z vidjetimiz yozishimiz uchun umumiy namuna
 quyidagicha bo'ladi.
 
 ::: code-group
@@ -25,7 +25,7 @@ class StyledText extends StatelessWidget {
 
 :::
 
-Bu vidgetimizni `StyledText` deb nomlaymiz va return qismiga `lib/main.dart` ichidagi matn qismining kodini olib
+Bu vidjetimizni `StyledText` deb nomlaymiz va return qismiga `lib/main.dart` ichidagi matn qismining kodini olib
 kelamiz. Shunda `lib/styled_text.dart` quyidagicha ko'rinishga keladi:
 
 ::: code-group
@@ -53,7 +53,7 @@ class StyledText extends StatelessWidget {
 
 :::
 
-Ana endi `lib/main.dart` faylidagi matn qismiga `StyledText` vidgetini chaqirib qo'yamiz. Shunda fayllarimiz quyidagicha ko'rinishga keladi.
+Ana endi `lib/main.dart` faylidagi matn qismiga `StyledText` vidjetini chaqirib qo'yamiz. Shunda fayllarimiz quyidagicha ko'rinishga keladi.
 
 ::: code-group
 
