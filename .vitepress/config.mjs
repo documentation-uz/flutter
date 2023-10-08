@@ -44,6 +44,7 @@ export default defineConfig({
                         {text: 'Container widget', link: '/guide/essentials/container-widget'},
                         {text: 'Add style', link: '/guide/essentials/add-style'},
                         {text: 'Custom widget', link: '/guide/essentials/custom-widget'},
+                        {text: 'Add attribute', link: '/guide/essentials/add-attribute'},
                     ]
                 },
             ],
