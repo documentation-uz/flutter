@@ -42,6 +42,8 @@ export default defineConfig({
                         {text: 'First simple application', link: '/guide/essentials/first-simple-application'},
                         {text: 'Scaffold widget', link: '/guide/essentials/scaffold-widget'},
                         {text: 'Container widget', link: '/guide/essentials/container-widget'},
+                        {text: 'Add style', link: '/guide/essentials/add-style'},
+                        {text: 'Custom widget', link: '/guide/essentials/custom-widget'},
                     ]
                 },
             ],
