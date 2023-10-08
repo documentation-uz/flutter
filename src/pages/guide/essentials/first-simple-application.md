@@ -71,15 +71,35 @@ class MyApp extends StatelessWidget {
 
 :::
 
-Vidgetimiz `MyApp` deb nomlandi. Ana endi `StatelessWidget`ining `build()` metodini `@override` qilishimiz talab
+Vidgetimiz `MyApp` deb nomlandi.
+
+Flutterda bitta vidgetdan bir nechta marta foydalanish mumkin. Bir xil vidgetlarni bir-biridan ajratib olishimiz uchun
+ularning `key` argumentiga qiymat berishimiz kerak.
+
+::: code-group
+
+```dart{4} [lib/main.dart]
+...
+
+class MyApp extends StatelessWidget {
+    MyApp({super.key});
+    ...
+}
+```
+
+:::
+
+Ana endi `StatelessWidget`ining `build()` metodini `@override` qilishimiz talab
 etiladi.
 
 ::: code-group
 
-```dart{4-7} [lib/main.dart]
+```dart{6-9} [lib/main.dart]
 ...
 
 class MyApp extends StatelessWidget {
+    MyApp({super.key});
+
     @override
     Widget build(context) {
         return ...
@@ -96,7 +116,8 @@ class MyApp extends StatelessWidget {
 ## MaterialApp vidgeti
 
 `MaterialApp` vidgeti flutterda eng asosiy vidgetlardan biri hisoblanadi. Bu vidget bizga ilovamizda umumiy sozlashlarni
-amalga oshirishga yordam beradi. Masalan, ilovaning uchun umumiy mavzusini (theme) belgilash mumkin.
+amalga oshirishga yordam beradi. Masalan, ilovaning umumiy mavzusini (theme) tanlash, ilova tilini belgilash va boshqa
+ko'plab umumiy sozlashlarni bajarish mumkin.
 
 ::: code-group
 
@@ -156,8 +177,7 @@ class MyApp extends StatelessWidget {
 
 :::
 
-Shunday qilib kodimiz quyidagi ko'rinishda keldi va bu dastur ekranga `Salom Flutter` yozuvini chiqarash vazifasini
-bajaradi:
+Shunday qilib kodimiz quyidagi ko'rinishda keldi va ilova ishga tushganda ekranga `Salom Flutter` yozuvi chiqadi:
 
 ::: code-group
 
