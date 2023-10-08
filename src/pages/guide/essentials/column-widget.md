@@ -6,7 +6,7 @@ Elementlarni ustma-ust bitta ustunga joylashtirmoqchi bo'lsak, `Column` vidjetid
 
 Birinchi bo'lib, avvalgi kodimizdagi `StyledText` vidgetimizni `Column` vidgetining ichiga olib o'tamiz.
 
-![aaa](smartphone.png)
+![aaa](https://documentation-uz.fra1.cdn.digitaloceanspaces.com/flutter/smartphone.jpg)
 
 `Column` vidgeti orqali avvalgi kodimizdagi matnning pastiga tugma (button) qo'yamiz.
 
