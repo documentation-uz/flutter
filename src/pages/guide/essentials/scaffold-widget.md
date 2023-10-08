@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         body: Text('Salom Flutter'),
       ),
