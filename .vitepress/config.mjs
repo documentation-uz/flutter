@@ -20,10 +20,10 @@ export default defineConfig({
         nav: [
             {text: 'Home', link: '/'},
             {
-                text: 'Documentation', link: '/get-started/introduction'
+                text: 'Documentation', link: '/guide/get-started/introduction'
             },
             {
-                text: 'API Reference', link: '/api-reference/'
+                text: 'API Reference', link: '/api-reference/widgets/'
             }
         ],
 
@@ -40,15 +40,18 @@ export default defineConfig({
                     text: 'Essentials',
                     items: [
                         {text: 'First simple application', link: '/guide/essentials/first-simple-application'},
+                        {text: 'Scaffold widget', link: '/guide/essentials/scaffold-widget'},
                     ]
                 },
             ],
             '/api-reference/': [
                 {
-                    text: 'API Reference',
+                    text: 'Widgets', link: '/api-reference/widgets/',
                     items: [
-                        {text: 'print', link: '/api-reference/print'},
-                        {text: 'input', link: '/api-reference/input'},
+                        {text: 'MaterialApp', link: '/api-reference/widgets/material-app'},
+                        {text: 'Scaffold', link: '/api-reference/widgets/scaffold'},
+                        {text: 'Text', link: '/api-reference/widgets/text'},
+                        {text: 'Center', link: '/api-reference/widgets/center'},
                     ]
                 }
             ]
