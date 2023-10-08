@@ -19,7 +19,7 @@ Birinchi bo'lib, avvalgi kodimizdagi `StyledText` vidgetimizni `Column` vidgetin
 
 
 
-<style module>
+<style scoped>
 img {
     display: flex;
     justify-content: center;
