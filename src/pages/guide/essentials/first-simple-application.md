@@ -40,23 +40,23 @@ void main() {
 
 :::
 
-`runApp()` funksiyasi bitta argumentni qabul qiladi va bu argument flutter proyetkimizning asosiy vidgetidir.
+`runApp()` funksiyasi bitta argumentni qabul qiladi va bu argument flutter proyetkimizning asosiy vidjetidir.
 
-## Vidget nima?
+## Vidjet nima?
 
-Vidget ilovamizning ma'lum bir bloki, boshqacha aytganda ma'lum bir qismiga aytiladi. Darslarda biz flutter vidgetlari
-bilan tanishamiz, hamda o'z vidgetlarimizni ham yozamiz.
+Vidjet ilovamizning ma'lum bir bloki, boshqacha aytganda ma'lum bir qismiga aytiladi. Darslarda biz flutter vidjetlari
+bilan tanishamiz, hamda o'z vidjetlarimizni ham yozamiz.
 
-## Dastlabki vidgetimiz
+## Dastlabki vidjetimiz
 
-`runApp()` funksiyaga argument sifatida vidget berish uchun dastlabki vidgetimizning kodini yozamiz.
+`runApp()` funksiyaga argument sifatida vidjet berish uchun dastlabki vidjetimizning kodini yozamiz.
 
-Vidgetlar 2turga bo'linadi va sinflar orqali yoziladi.
+Vidjetlar 2turga bo'linadi va sinflar orqali yoziladi.
 
 * `StatelessWidget` - o'zgaruvchan holatga ega bo'lmagan vidjetni ifodalovchi sinfdir.
 * `StatefulWidget` - o'zgaruvchan holatga ega bo'lgan vidjetni ifodalovchi sinfdir.
 
-Dastlabki vidgetimizni `StatelessWidget` asosida yaratamiz. Buning uchun avvaliga class ochamiz va `StatelessWidget`dan
+Dastlabki vidjetimizni `StatelessWidget` asosida yaratamiz. Buning uchun avvaliga class ochamiz va `StatelessWidget`dan
 nasl olamiz.
 
 ::: code-group
@@ -71,9 +71,9 @@ class MyApp extends StatelessWidget {
 
 :::
 
-Vidgetimiz `MyApp` deb nomlandi.
+Vidjetimiz `MyApp` deb nomlandi.
 
-Flutterda bitta vidgetdan bir nechta marta foydalanish mumkin. Bir xil vidgetlarni bir-biridan ajratib olishimiz uchun
+Flutterda bitta vidjetdan bir nechta marta foydalanish mumkin. Bir xil vidjetlarni bir-biridan ajratib olishimiz uchun
 ularning `key` argumentiga qiymat berishimiz kerak.
 
 ::: code-group
@@ -113,9 +113,9 @@ class MyApp extends StatelessWidget {
 
 `build()` metodi `Widget` turidagi ma'lumotni qaytaradi va argument sifatida `context`ni oladi.
 
-## MaterialApp vidgeti
+## MaterialApp vidjeti
 
-`MaterialApp` vidgeti flutterda eng asosiy vidgetlardan biri hisoblanadi. Bu vidget bizga ilovamizda umumiy sozlashlarni
+`MaterialApp` vidjeti flutterda eng asosiy vidjetlardan biri hisoblanadi. Bu vidjet bizga ilovamizda umumiy sozlashlarni
 amalga oshirishga yordam beradi. Masalan, ilovaning umumiy mavzusini (theme) tanlash, ilova tilini belgilash va boshqa
 ko'plab umumiy sozlashlarni bajarish mumkin.
 
@@ -134,9 +134,9 @@ class MyApp extends StatelessWidget {
 
 :::
 
-## Text vidgeti
+## Text vidjeti
 
-Ana endi ekranga biror-bir matnni chiqarish uchun flutterdagi `Text` vidgetidan foydalanamiz. Uni kodda quyidagicha
+Ana endi ekranga biror-bir matnni chiqarish uchun flutterdagi `Text` vidjetidan foydalanamiz. Uni kodda quyidagicha
 yozamiz:
 
 ::: code-group
@@ -156,11 +156,11 @@ class MyApp extends StatelessWidget {
 
 :::
 
-`MaterialApp` vidgetining `home` atributiga `Text` vidgetini beramiz. `Text` vidgetining ichiga esa ilovamiz oynasida
+`MaterialApp` vidjetining `home` atributiga `Text` vidjetini beramiz. `Text` vidjetining ichiga esa ilovamiz oynasida
 qanday matn ko'rinishi kerakligini kiritamiz.
 
-Dastlabki vidgetimiz tayyor! Dasturni ishga tishirganimizda `MyApp` vidgeti ishlashi uchun yuqoridagi `runApp()`
-funksiyaga vidgetimizni argument sifatida berishimiz kerak.
+Dastlabki vidjetimiz tayyor! Dasturni ishga tishirganimizda `MyApp` vidjeti ishlashi uchun yuqoridagi `runApp()`
+funksiyaga vidjetimizni argument sifatida berishimiz kerak.
 
 ::: code-group
 
