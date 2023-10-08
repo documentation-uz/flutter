@@ -17,7 +17,7 @@ Avvalgi darsda tuzgan dasturimizdagi `Text` vidgetini `Scaffold` ichiga olib o't
 
 ::: code-group
 
-```dart{13-15} [lib/main.dart]
+```dart{13,15} [lib/main.dart]
 import 'package:flutter/material.dart';
 
 void main() {
@@ -49,7 +49,7 @@ quyidagicha joylashtiramiz:
 
 ::: code-group
 
-```dart{5-7} [lib/main.dart]
+```dart{5,7} [lib/main.dart]
 ...
 
 return MaterialApp(
