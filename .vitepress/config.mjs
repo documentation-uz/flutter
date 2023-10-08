@@ -41,6 +41,7 @@ export default defineConfig({
                     items: [
                         {text: 'First simple application', link: '/guide/essentials/first-simple-application'},
                         {text: 'Scaffold widget', link: '/guide/essentials/scaffold-widget'},
+                        {text: 'Container widget', link: '/guide/essentials/container-widget'},
                     ]
                 },
             ],
