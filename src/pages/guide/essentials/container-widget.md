@@ -1,12 +1,12 @@
 # Container widget
 
-Oldingi darsda tuzgan dasturimizda `Center` vidgeti butun ekran bo'yicha ichidagi elementni markazga joylashtirmoqda.
-Ammo bizga odatda ekranning ma'lum bir qismi bilan ishlash kerak bo'ladi. Buning uchun biz `Container` vidgetidan
+Oldingi darsda tuzgan dasturimizda `Center` vidjeti butun ekran bo'yicha ichidagi elementni markazga joylashtirmoqda.
+Ammo bizga odatda ekranning ma'lum bir qismi bilan ishlash kerak bo'ladi. Buning uchun biz `Container` vidjetidan
 foydalanamiz.
 
-`Container` vidgeti flutter proyektimizda bloklarni qurish uchun foydalaniladi.
+`Container` vidjeti flutter proyektimizda bloklarni qurish uchun foydalaniladi.
 
-Oldingi kodimizdagi `Center` vidgetimizni `Container` vidgetining ichiga olib o'tamiz.
+Oldingi kodimizdagi `Center` vidjetimizni `Container` vidjetining ichiga olib o'tamiz.
 
 ::: code-group
 
@@ -28,7 +28,7 @@ return MaterialApp(
 
 :::
 
-`Container` vidgetining bir nechta atributlari mavjud:
+`Container` vidjetining bir nechta atributlari mavjud:
 
 * `width` - blokning eni
 * `height` - blokning balandligi
@@ -36,7 +36,7 @@ return MaterialApp(
 
 va boshqalar.
 
-Shu atributlar orqali `Container` vidgetimizga o'zgartirish kiritamiz.
+Shu atributlar orqali `Container` vidjetimizga o'zgartirish kiritamiz.
 
 ::: code-group
 
