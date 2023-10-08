@@ -1,8 +1,8 @@
 # Add attribute
 
-O'tgan darsda o'zimizning `StyledText` vidgetimizni yasagan edik. Bu vidget ekranga `Salom Flutter` matnini chiqarish
-vazifasini bajaradi. Ammo bu vidgetni turli joylarda chaqirib ishlatilganda doim bir xil matn chiqishi noto'g'ri
-bo'ladi. Shuning uchun vidgetga atribut qo'shish orqali har safar chaqirilganda qanday matn chiqishini boshqarishimiz
+O'tgan darsda o'zimizning `StyledText` vidjetimizni yasagan edik. Bu vidjet ekranga `Salom Flutter` matnini chiqarish
+vazifasini bajaradi. Ammo bu vidjetni turli joylarda chaqirib ishlatilganda doim bir xil matn chiqishi noto'g'ri
+bo'ladi. Shuning uchun vidjetga atribut qo'shish orqali har safar chaqirilganda qanday matn chiqishini boshqarishimiz
 mumkin.
 
 Buning uchun `lib/styled_text.dart` faylida quyidagicha o'zgarish kiritamiz:
@@ -50,5 +50,5 @@ child: Center(
 
 :::
 
-Dasturni ishga tushirsak, matn o'zgarganini ko'rishimiz mumkin. Ana endi `StyledText` vidgetimizni proyektimizning biror
+Dasturni ishga tushirsak, matn o'zgarganini ko'rishimiz mumkin. Ana endi `StyledText` vidjetimizni proyektimizning biror
 bir qismida chaqirganimizda qanday matn ko'rinishini belgilashimiz mumkin. 
