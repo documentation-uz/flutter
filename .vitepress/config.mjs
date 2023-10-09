@@ -46,6 +46,7 @@ export default defineConfig({
                         {text: 'Custom widget', link: '/guide/essentials/custom-widget'},
                         {text: 'Add attribute', link: '/guide/essentials/add-attribute'},
                         {text: 'Column widget', link: '/guide/essentials/column-widget'},
+                        {text: 'StatefulWidget', link: '/guide/essentials/stateful-widget'},
                     ]
                 },
             ],
