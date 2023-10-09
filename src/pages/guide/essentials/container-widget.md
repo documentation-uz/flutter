@@ -6,6 +6,8 @@ foydalanamiz.
 
 `Container` vidjeti flutter proyektimizda bloklarni qurish uchun foydalaniladi.
 
+![flutter-container](https://documentation-uz.fra1.cdn.digitaloceanspaces.com/flutter/flutter-container.png)
+
 Oldingi kodimizdagi `Center` vidjetimizni `Container` vidjetining ichiga olib o'tamiz.
 
 ::: code-group
@@ -69,3 +71,10 @@ Berilgan qiymatlarni tahlil qiladigan bo'lsak:
 * `height` uchun `200` berilgani flutterning `dp` o'lchov birligi bo'yicha `200dp` qiymat berilganini anglatadi.
 * `color` uchun `Colors.amber` qiymati berilgan. `Colors` flutterga tegishli klass bo'lib, elementlarga flutterdagi
   standart ranglarni berish uchun foydalaniladi.
+
+<style scoped>
+img {
+    width: 50%;
+    margin-left: 25%;
+}
+</style>
