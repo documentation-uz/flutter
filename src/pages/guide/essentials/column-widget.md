@@ -66,9 +66,11 @@ child: Column(
 :::
 
 ::: warning E'tibor bering
+
 Oldingi foydalanilgan vidjetlarning atributlariga (`home`, `body`, `child`) qiymat sifatida faqat bitta vidjetni berish
-mumkin edi. `Column` vidjetining `children` atributiga bir nechta vidjetlarni ro'yxat ko'rinishida berish mumkin va bu
-vidjetlar ustma-ust joylashadi.
+mumkin edi. `Column` vidjetining `children` atributiga bir nechta vidjetlarning ro'yxatini berish mumkin va bu vidjetlar
+ustma-ust joylashadi.
+
 :::
 
 Ana endi matn pastiga knopka (button) qo'yishni o'rganamiz.
