@@ -39,6 +39,7 @@ export default defineConfig({
                 {
                     text: 'Essentials',
                     items: [
+                        {text: 'Create project', link: '/guide/essentials/create-project'},
                         {text: 'First simple application', link: '/guide/essentials/first-simple-application'},
                         {text: 'Scaffold widget', link: '/guide/essentials/scaffold-widget'},
                         {text: 'Container widget', link: '/guide/essentials/container-widget'},
