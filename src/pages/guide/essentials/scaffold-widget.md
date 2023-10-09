@@ -44,8 +44,11 @@ Dasturni ishga tushirsak, interfeys o'zgarganini ko'rishimiz mumkin.
 
 ## Center vidjeti
 
-Elementlarni markazga joylashtirish uchun `Center` vidjetidan foydalanamiz. `Center` vidjeti orqali matnni markazga
-quyidagicha joylashtiramiz:
+Elementlarni markazga joylashtirish uchun `Center` vidjetidan foydalanamiz. 
+
+![flutter-center](https://documentation-uz.fra1.cdn.digitaloceanspaces.com/flutter/flutter-center.png)
+
+`Center` vidjeti orqali matnni markazga quyidagicha joylashtiramiz:
 
 ::: code-group
 
@@ -66,3 +69,10 @@ return MaterialApp(
 :::
 
 Dasturni qayta ishga tushirsak, `Salom Flutter` yozuvi markazga o'tganini ko'rishimiz mumkin.
+
+<style scoped>
+img {
+    width: 50%;
+    margin-left: 25%;
+}
+</style>
