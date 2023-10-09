@@ -2,7 +2,7 @@
 
 Bu darsda biz tugma bosilganda matn yozuvi o'zgaradigan dastur tuzamiz. Ammo bu amalni StatelessWidget ichida amalga
 oshira olmaymiz. Sababi oldingi darslarda aytganimdek, `StatelessWidget` o'zgaruvchan holatga ega bo'lmagan vidjetni
-ifodalovchi sinfdir. Bizning holatda matn esa tugmani bosganda matn yozuvi o'zgarishi kerak.
+ifodalovchi sinfdir. Bizning holatda esa tugmani bosganda matn yozuvi o'zgarishi kerak.
 
 Buning uchun biz `StatefulWidget` asosida o'z vidjetimizni quramiz.
 
