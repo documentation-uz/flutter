@@ -103,17 +103,8 @@ child: Column(
 
 Dasturni ishga tushirsak, haqiqatdan `TextButton` vidjeti matn pastida joylashganini ko'rishimiz mumkin.
 
-
-
-
-
-
-
-
 <style scoped>
 img {
-    display: flex;
-    justify-content: center;
     width: 50%;
     margin-left: 25%;
 }
